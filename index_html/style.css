@@ -1,0 +1,135 @@
+#html {/*structure of the web page*/
+	padding-top:0px;
+	padding-left:70px;
+	padding-right:70px;
+	margin-top:-8px;
+	background-color:LightSteelBlue;
+	box-sizing:border-box;
+}
+/*Body is the entire page*/
+#body {
+
+	background-color:white;
+	border:3px solid black;
+	border-color:black;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+/*wrapper for the webpage */
+#container{
+	min-height:10%;
+	padding:0px;
+	border: 2px black;
+	color:black;
+	
+	
+	
+}
+/*wrapper for the title and navigation tags*/
+#main {
+	overflow: auto;
+	color:white;
+	font-size:15px;
+	font-weight:50;
+	text-align:left;
+	background-color:DarkSlateBlue;
+	
+}
+/*navigation menu only for site*/
+#navigation {
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	background-color:DarkSlateBlue;
+	color:white;
+	border-color: 5px solid black;
+	
+}
+/*position for navigation menu*/
+#tags {
+	float:left;
+}
+/*structure of navigation menu*/
+#tags a{
+	display:block;
+	padding:10px 15px;
+	text-align:center;
+	text-decoration:none;
+	border-right:1px solid DarkSlateBlue;
+	border-bottom-color:solid white;
+	min-width:30px;
+	font-size:15px;
+	border:2px;
+	border-color:solid black;
+	color:white;
+	
+}
+/*rules for current navigation menu*/
+#current a{
+	color:white;
+	float:left;
+	list-style-type:none;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	padding:10px 15px;
+	
+}
+/*hover display*/
+#tags a:hover{
+	background-color:DodgerBlue;
+	
+}
+#tags a:active{
+color:black}
+@keyframes myGlowAnimation{
+	50% {text-shadow:0px 0px 20px grey;}
+
+}
+/*wrapper to align text area in the body of browser*/
+#content {
+	padding-left:20px;
+	padding-right:20px;
+	font-size:14px;
+}
+/*table structure and description*/
+#table {
+	background-color:green;
+	color:black;
+	padding:5px;
+	margin: 10px;
+	border: black;
+	clear: both;
+	position:relative;
+	
+}
+/*wrapper to enclose htmlTagsTable*/
+#htmlTagsTable {
+box-sizing: 10px border-box;	
+background-color:LightYellow;
+border:10px black;
+padding:5px;
+
+	
+	
+}
+/*footer description and structure*/
+#footer {
+	background-color:DarkSlateBlue;
+	position:relative;
+	height:20px;
+	margin-bottom:0px;
+	color:white;
+	clear:both;
+	
+}
+/*footer color*/
+#footer a { 
+color:white;
+}
+#footer a:visited { 
+color: grey; 
+}
